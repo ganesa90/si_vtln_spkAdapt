@@ -6,6 +6,8 @@ Directories:
 data/XRMB_database - Contains a sample subset of the audio files from XRMB dataset for experiments
 tools/ - Some Matlab tools that may be required to run the code
 speaker_ubms/ - Directory to store the GMM speaker models
+config/ - HTK config files for extracting MFCC39 features using various VTLN warping factors. 
+	  These files are used during grid search
 
 Scripts:
 train_speaker_ubm.m - Script to trian the GMM models for each target speaker
